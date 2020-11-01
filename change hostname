@@ -1,0 +1,14 @@
+tested ubuntu 20.04
+
+sudo hostnamectl set-hostname host.example.com
+
+/etc/hosts
+
+/etc/hostname
+
+If the file exists on your system open it: 
+
+/etc/cloud/cloud.cfg
+
+Search for preserve_hostname, and change the value from false to true
+
